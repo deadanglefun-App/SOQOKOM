@@ -7,7 +7,7 @@ export default function Documentation() {
     {
       icon: Wallet,
       title: 'Getting Started',
-      items: ['Connect MetaMask', 'Get SQKM Tokens', 'First Trade', 'Understanding Fees']
+      items: ['Connect MetaMask', 'Get SQCM Tokens', 'First Trade', 'Understanding Fees']
     },
     {
       icon: Code,
@@ -35,7 +35,7 @@ export default function Documentation() {
           <div className="text-center mb-12">
             <Book className="h-20 w-20 mx-auto mb-6 text-purple-400" />
             <h1 className="text-5xl font-bold mb-4 silver-gradient">Documentation</h1>
-            <p className="text-gray-400 text-lg">Complete guides and resources for SOQOKOM</p>
+            <p className="text-gray-400 text-lg">Complete guides and resources for SOQOCOM</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">

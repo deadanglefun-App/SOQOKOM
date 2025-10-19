@@ -9,7 +9,7 @@ export default function Roadmap() {
       status: 'completed',
       items: [
         'Platform Concept & Research',
-        'Shariah Compliance Audit',
+        'Ethical Finance Audit',
         'Smart Contract Development',
         'Initial Team Formation'
       ]
@@ -29,7 +29,7 @@ export default function Roadmap() {
       status: 'active',
       items: [
         'Mainnet Launch',
-        'SQKM Token Sale',
+        'SQCM Token Sale',
         'Staking Platform Live',
         'Initial Exchange Listings'
       ]
@@ -87,7 +87,7 @@ export default function Roadmap() {
           <div className="text-center mb-12">
             <Map className="h-20 w-20 mx-auto mb-6 text-purple-400" />
             <h1 className="text-5xl font-bold mb-4 silver-gradient">Roadmap</h1>
-            <p className="text-gray-400 text-lg">SOQOKOM Development Journey</p>
+            <p className="text-gray-400 text-lg">SOQOCOM Development Journey</p>
           </div>
 
           <div className="relative">
@@ -134,8 +134,8 @@ export default function Roadmap() {
           <div className="mt-16 tech-card p-12 rounded-2xl text-center">
             <h2 className="text-3xl font-bold mb-4 silver-gradient">Long-Term Vision</h2>
             <p className="text-gray-400 text-lg max-w-3xl mx-auto mb-6">
-              Our ultimate goal is to become the leading halal-compliant Web3 ecosystem, serving millions
-              of users worldwide with innovative DeFi solutions that align with Islamic finance principles.
+              Our ultimate goal is to become the leading ethical Web3 ecosystem, serving millions
+              of users worldwide with innovative DeFi solutions that prioritize transparency and social impact.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
               <div className="glass-effect p-6 rounded-lg">

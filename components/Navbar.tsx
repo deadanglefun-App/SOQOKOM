@@ -12,7 +12,7 @@ export const Navbar = () => {
   const pathname = usePathname();
   const { web3State, connectWallet, disconnectWallet, tokenBalances } = useWeb3();
 
-  const sqkmBalance = tokenBalances.find(t => t.symbol === 'SQKM')?.balanceFormatted || '0.00';
+  const sqcmBalance = tokenBalances.find(t => t.symbol === 'SQCM')?.balanceFormatted || '0.00';
 
   const navLinks = [
     { href: '/dashboard', label: 'Dashboard', icon: Home },
@@ -28,9 +28,9 @@ export const Navbar = () => {
           <div className="flex items-center gap-8">
             <Link href="/" className="flex items-center gap-2 group">
               <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-purple-600 to-purple-800 flex items-center justify-center border-2 border-silver-400 shadow-lg shadow-purple-500/50 group-hover:shadow-purple-500/70 transition-all p-1">
-                <Image src="/SQ LOGO.png" alt="SOQOKOM" width={32} height={32} className="object-contain" />
+                <Image src="/SQ LOGO.png" alt="SOQOCOM" width={32} height={32} className="object-contain" />
               </div>
-              <span className="font-bold text-xl silver-gradient">SOQOKOM</span>
+              <span className="font-bold text-xl silver-gradient">SOQOCOM</span>
             </Link>
 
             {web3State.isConnected && (
@@ -60,7 +60,7 @@ export const Navbar = () => {
               <>
                 <div className="hidden sm:flex items-center gap-2 px-4 py-2 glass-effect rounded-lg border border-purple-500/30">
                   <span className="text-sm font-medium text-purple-300">
-                    {sqkmBalance} SQKM
+                    {sqcmBalance} SQCM
                   </span>
                 </div>
                 <Button

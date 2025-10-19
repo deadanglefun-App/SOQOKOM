@@ -12,12 +12,12 @@ export const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-purple-600 to-purple-800 flex items-center justify-center border border-silver-400 p-1">
-                <Image src="/SQ LOGO.png" alt="SOQOKOM" width={24} height={24} className="object-contain" />
+                <Image src="/SQ LOGO.png" alt="SOQOCOM" width={24} height={24} className="object-contain" />
               </div>
-              <span className="font-bold text-xl silver-gradient">SOQOKOM</span>
+              <span className="font-bold text-xl silver-gradient">SOQOCOM</span>
             </div>
             <p className="text-sm text-gray-400">
-              Halal Web3 platform on Polygon
+              Ethical Web3 platform on Polygon
             </p>
           </div>
 
@@ -58,7 +58,7 @@ export const Footer = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-purple-900/30 text-center text-sm text-gray-500">
-          <p>&copy; 2025 SOQOKOM. All rights reserved. Built on Polygon.</p>
+          <p>&copy; 2025 SOQOCOM. All rights reserved. Built on Polygon.</p>
         </div>
       </div>
     </footer>

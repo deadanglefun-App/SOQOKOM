@@ -27,7 +27,7 @@ export default function DAO() {
   const proposals = [
     {
       id: 1,
-      title: 'Increase SQKM Staking Rewards by 5%',
+      title: 'Increase SQCM Staking Rewards by 5%',
       description: 'Proposal to increase staking rewards to attract more long-term holders and increase platform TVL.',
       status: 'active',
       votesYes: 15420,
@@ -37,8 +37,8 @@ export default function DAO() {
     },
     {
       id: 2,
-      title: 'Add New Token Pair: SQKM/BTC',
-      description: 'Enable trading between SQKM and Bitcoin to expand market opportunities.',
+      title: 'Add New Token Pair: SQCM/BTC',
+      description: 'Enable trading between SQCM and Bitcoin to expand market opportunities.',
       status: 'active',
       votesYes: 8750,
       votesNo: 1250,
@@ -76,7 +76,7 @@ export default function DAO() {
       <div className="relative container mx-auto px-4 py-8">
         <div className="mb-8">
           <h1 className="text-4xl font-bold mb-2 silver-gradient">DAO Governance</h1>
-          <p className="text-gray-400">Vote on proposals and shape the future of SOQOKOM</p>
+          <p className="text-gray-400">Vote on proposals and shape the future of SOQOCOM</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -85,7 +85,7 @@ export default function DAO() {
               <Vote className="h-5 w-5 text-purple-400" />
               <span className="text-sm text-gray-400">Your Voting Power</span>
             </div>
-            <div className="text-3xl font-bold text-purple-300">0 SQKM</div>
+            <div className="text-3xl font-bold text-purple-300">0 SQCM</div>
             <p className="text-xs text-gray-500 mt-2">Based on staked tokens</p>
           </div>
 
@@ -195,16 +195,16 @@ export default function DAO() {
         <div className="mt-8 tech-card p-6 rounded-xl">
           <h3 className="text-xl font-bold mb-4 silver-gradient">About DAO Governance</h3>
           <p className="text-gray-400 mb-4">
-            SOQOKOM DAO enables token holders to participate in platform governance. Your voting power is determined by the amount of SQKM tokens you have staked.
+            SOQOCOM DAO enables token holders to participate in platform governance. Your voting power is determined by the amount of SQCM tokens you have staked.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
             <div className="glass-effect p-4 rounded-lg">
               <div className="font-semibold text-purple-300 mb-1">Minimum to Vote</div>
-              <div className="text-gray-400">100 SQKM staked</div>
+              <div className="text-gray-400">100 SQCM staked</div>
             </div>
             <div className="glass-effect p-4 rounded-lg">
               <div className="font-semibold text-purple-300 mb-1">Minimum to Propose</div>
-              <div className="text-gray-400">1,000 SQKM staked</div>
+              <div className="text-gray-400">1,000 SQCM staked</div>
             </div>
             <div className="glass-effect p-4 rounded-lg">
               <div className="font-semibold text-purple-300 mb-1">Voting Period</div>

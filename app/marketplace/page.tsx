@@ -27,7 +27,7 @@ export default function Marketplace() {
   }
 
   const tokens = [
-    { symbol: 'SQKM', name: 'Soqokom Token', price: 5.00, change: 12.5, volume: '1.2M' },
+    { symbol: 'SQCM', name: 'Soqocom Token', price: 5.00, change: 12.5, volume: '1.2M' },
     { symbol: 'USDC', name: 'USD Coin', price: 1.00, change: 0.01, volume: '5.8M' },
     { symbol: 'ETH', name: 'Ethereum', price: 3000.00, change: -2.3, volume: '12.5M' },
     { symbol: 'MATIC', name: 'Polygon', price: 0.80, change: 5.7, volume: '2.1M' },
@@ -40,7 +40,7 @@ export default function Marketplace() {
       <div className="relative container mx-auto px-4 py-8">
         <div className="mb-8">
           <h1 className="text-4xl font-bold mb-2 silver-gradient">Marketplace</h1>
-          <p className="text-gray-400">Trade halal-compliant tokens</p>
+          <p className="text-gray-400">Trade ethical tokens</p>
         </div>
 
         <div className="mb-8">

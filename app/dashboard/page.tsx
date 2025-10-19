@@ -34,7 +34,7 @@ export default function Dashboard() {
       <div className="relative container mx-auto px-4 py-8">
         <div className="mb-8">
           <h1 className="text-4xl font-bold mb-2 silver-gradient">Dashboard</h1>
-          <p className="text-gray-400">Welcome back to SOQOKOM</p>
+          <p className="text-gray-400">Welcome back to SOQOCOM</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
@@ -89,7 +89,7 @@ export default function Dashboard() {
               0
             </div>
             <div className="flex items-center gap-1 text-gray-400 text-sm">
-              <span>SQKM tokens</span>
+              <span>SQCM tokens</span>
             </div>
           </div>
         </div>

@@ -4,12 +4,12 @@ import { PieChart, TrendingUp, Lock, Users, Zap } from 'lucide-react';
 
 export default function Tokenomics() {
   const distribution = [
-    { category: 'Public Sale', percentage: 30, amount: '300M SQKM', color: 'from-purple-500 to-purple-600' },
-    { category: 'Staking Rewards', percentage: 25, amount: '250M SQKM', color: 'from-blue-500 to-blue-600' },
-    { category: 'Team & Advisors', percentage: 15, amount: '150M SQKM', color: 'from-green-500 to-green-600' },
-    { category: 'Liquidity Pool', percentage: 15, amount: '150M SQKM', color: 'from-yellow-500 to-yellow-600' },
-    { category: 'Treasury', percentage: 10, amount: '100M SQKM', color: 'from-red-500 to-red-600' },
-    { category: 'Marketing', percentage: 5, amount: '50M SQKM', color: 'from-pink-500 to-pink-600' },
+    { category: 'Public Sale', percentage: 30, amount: '300M SQCM', color: 'from-purple-500 to-purple-600' },
+    { category: 'Staking Rewards', percentage: 25, amount: '250M SQCM', color: 'from-blue-500 to-blue-600' },
+    { category: 'Team & Advisors', percentage: 15, amount: '150M SQCM', color: 'from-green-500 to-green-600' },
+    { category: 'Liquidity Pool', percentage: 15, amount: '150M SQCM', color: 'from-yellow-500 to-yellow-600' },
+    { category: 'Treasury', percentage: 10, amount: '100M SQCM', color: 'from-red-500 to-red-600' },
+    { category: 'Marketing', percentage: 5, amount: '50M SQCM', color: 'from-pink-500 to-pink-600' },
   ];
 
   return (
@@ -21,7 +21,7 @@ export default function Tokenomics() {
           <div className="text-center mb-12">
             <PieChart className="h-20 w-20 mx-auto mb-6 text-purple-400" />
             <h1 className="text-5xl font-bold mb-4 silver-gradient">Tokenomics</h1>
-            <p className="text-gray-400 text-lg">SQKM Token Distribution & Economics</p>
+            <p className="text-gray-400 text-lg">SQCM Token Distribution & Economics</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
@@ -90,7 +90,7 @@ export default function Tokenomics() {
                   <div className="h-2 w-2 bg-purple-500 rounded-full mt-2"></div>
                   <div>
                     <div className="font-semibold text-gray-100 mb-1">Trading Fees</div>
-                    <p className="text-sm text-gray-400">Reduced fees when paying with SQKM</p>
+                    <p className="text-sm text-gray-400">Reduced fees when paying with SQCM</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
@@ -142,7 +142,7 @@ export default function Tokenomics() {
             <Users className="h-16 w-16 mx-auto mb-4 text-purple-400" />
             <h3 className="text-2xl font-bold mb-4 silver-gradient">Deflationary Mechanism</h3>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              SQKM implements a token burn mechanism where 10% of all trading fees are permanently removed
+              SQCM implements a token burn mechanism where 10% of all trading fees are permanently removed
               from circulation, creating scarcity and potential value appreciation over time.
             </p>
           </div>

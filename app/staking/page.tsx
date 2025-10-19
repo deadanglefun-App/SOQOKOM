@@ -26,9 +26,9 @@ export default function Staking() {
   }
 
   const stakingPools = [
-    { id: 1, token: 'SQKM', apy: 15.5, minStake: 100, totalStaked: '2.5M', lockPeriod: '30 days' },
-    { id: 2, token: 'SQKM', apy: 22.0, minStake: 500, totalStaked: '1.8M', lockPeriod: '90 days' },
-    { id: 3, token: 'SQKM', apy: 30.0, minStake: 1000, totalStaked: '1.2M', lockPeriod: '180 days' },
+    { id: 1, token: 'SQCM', apy: 15.5, minStake: 100, totalStaked: '2.5M', lockPeriod: '30 days' },
+    { id: 2, token: 'SQCM', apy: 22.0, minStake: 500, totalStaked: '1.8M', lockPeriod: '90 days' },
+    { id: 3, token: 'SQCM', apy: 30.0, minStake: 1000, totalStaked: '1.2M', lockPeriod: '180 days' },
   ];
 
   return (
@@ -38,7 +38,7 @@ export default function Staking() {
       <div className="relative container mx-auto px-4 py-8">
         <div className="mb-8">
           <h1 className="text-4xl font-bold mb-2 silver-gradient">Staking Pools</h1>
-          <p className="text-gray-400">Stake your SQKM tokens and earn rewards</p>
+          <p className="text-gray-400">Stake your SQCM tokens and earn rewards</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -89,7 +89,7 @@ export default function Staking() {
                     </div>
                     <div>
                       <div className="text-sm text-gray-400 mb-1">Min Stake</div>
-                      <div className="text-xl font-bold text-gray-100">{pool.minStake} SQKM</div>
+                      <div className="text-xl font-bold text-gray-100">{pool.minStake} SQCM</div>
                     </div>
                     <div>
                       <div className="text-sm text-gray-400 mb-1">Total Staked</div>
@@ -111,7 +111,7 @@ export default function Staking() {
                       <label className="text-sm text-gray-400 mb-2 block">Amount to Stake</label>
                       <Input
                         type="number"
-                        placeholder={`Min ${pool.minStake} SQKM`}
+                        placeholder={`Min ${pool.minStake} SQCM`}
                         className="glass-effect border-purple-500/30 text-gray-100"
                       />
                     </div>
@@ -140,7 +140,7 @@ export default function Staking() {
               <div className="h-10 w-10 rounded-full bg-purple-600 flex items-center justify-center text-white font-bold">2</div>
               <div>
                 <div className="font-semibold text-gray-100 mb-1">Stake Tokens</div>
-                <p className="text-sm text-gray-400">Lock your SQKM tokens for the specified period</p>
+                <p className="text-sm text-gray-400">Lock your SQCM tokens for the specified period</p>
               </div>
             </div>
             <div className="flex gap-4">

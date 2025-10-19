@@ -8,8 +8,8 @@ export default function Home() {
   const features = [
     {
       icon: Shield,
-      title: 'Halal & Compliant',
-      description: 'Shariah-compliant Web3 platform built on Polygon',
+      title: 'Ethical & Transparent',
+      description: 'Interest-free Web3 platform built on Polygon',
     },
     {
       icon: TrendingUp,
@@ -24,7 +24,7 @@ export default function Home() {
     {
       icon: Wallet,
       title: 'Multi-Token Support',
-      description: 'Support for SQKM, USDC, ETH, MATIC, and more',
+      description: 'Support for SQCM, USDC, ETH, MATIC, and more',
     },
   ];
 
@@ -40,15 +40,15 @@ export default function Home() {
           </div>
 
           <h1 className="text-6xl md:text-7xl font-bold mb-6 silver-gradient neon-glow">
-            SOQOKOM
+            SOQOCOM
           </h1>
 
           <div className="h-1 w-32 mx-auto mb-6 purple-gradient rounded-full"></div>
 
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto font-light">
-            The first <span className="text-purple-400 font-semibold">halal Web3 platform</span> on Polygon.
+            The first <span className="text-purple-400 font-semibold">ethical Web3 platform</span> on Polygon.
             <br />
-            Stake, trade, and participate in <span className="text-silver-400">futuristic governance</span>.
+            Transparent, interest-free finance with <span className="text-silver-400">decentralized governance</span>.
           </p>
 
           <Link href="/dashboard">

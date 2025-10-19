@@ -109,7 +109,7 @@ export const Web3Provider = ({ children }: Web3ProviderProps) => {
     if (!web3State.account) return;
 
     const mockBalances: TokenBalance[] = [
-      { symbol: 'SQKM', balance: '1000000000000000000000', balanceFormatted: '1000.00', usdValue: 5000 },
+      { symbol: 'SQCM', balance: '1000000000000000000000', balanceFormatted: '1000.00', usdValue: 5000 },
       { symbol: 'USDC', balance: '500000000', balanceFormatted: '500.00', usdValue: 500 },
       { symbol: 'ETH', balance: '2000000000000000000', balanceFormatted: '2.00', usdValue: 6000 },
       { symbol: 'MATIC', balance: '100000000000000000000', balanceFormatted: '100.00', usdValue: 80 },
