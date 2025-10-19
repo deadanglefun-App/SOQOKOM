@@ -1,12 +1,15 @@
-'use client';
-
 import './globals.css';
 import { Inter } from 'next/font/google';
-import { Web3Provider } from '@/contexts/Web3Context';
+import { Providers } from './providers';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
+
+export const metadata = {
+  title: 'SOQOCOM - Ethical Web3 Finance Platform',
+  description: 'Transparent, interest-free DeFi platform built on Polygon',
+};
 
 export default function RootLayout({
   children,
@@ -16,13 +19,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Web3Provider>
+        <Providers>
           <div className="flex flex-col min-h-screen">
             <Navbar />
             <main className="flex-1">{children}</main>
             <Footer />
           </div>
-        </Web3Provider>
+        </Providers>
       </body>
     </html>
   );
