@@ -1,0 +1,32 @@
+{
+  "name": "soqocom-contracts",
+  "version": "2.0.0",
+  "description": "SOQOCOM Smart Contracts - Finance Éthique 3.0",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:mumbai": "hardhat run scripts/deploy.js --network mumbai",
+    "deploy:polygon": "hardhat run scripts/deploy.js --network polygon",
+    "verify": "hardhat verify --network polygon",
+    "clean": "hardhat clean",
+    "node": "hardhat node"
+  },
+  "keywords": [
+    "ethereum",
+    "polygon",
+    "smart-contracts",
+    "defi",
+    "ethical-finance",
+    "soqocom"
+  ],
+  "author": "SOQOCOM",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1"
+  }
+}
