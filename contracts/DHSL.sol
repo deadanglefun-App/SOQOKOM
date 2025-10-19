@@ -89,7 +89,7 @@ contract DHSL is ERC20, ERC20Burnable, AccessControl, Pausable, ReentrancyGuard 
         _unpause();
     }
 
-    function _beforeTokenTransfer(
+    function _update(
         address from,
         address to,
         uint256 amount
@@ -98,6 +98,6 @@ contract DHSL is ERC20, ERC20Burnable, AccessControl, Pausable, ReentrancyGuard 
             require(isVerified[from], "Sender not verified");
             require(isVerified[to], "Recipient not verified");
         }
-        super._beforeTokenTransfer(from, to, amount);
+        super._update(from, to, amount);
     }
 }
