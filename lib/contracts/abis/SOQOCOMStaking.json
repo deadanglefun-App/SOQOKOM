@@ -1,0 +1,15 @@
+[
+  "function sqcmToken() view returns (address)",
+  "function totalStaked() view returns (uint256)",
+  "function totalRewardsPaid() view returns (uint256)",
+  "function stakingPlans(uint256) view returns (string name, uint256 duration, uint256 apy, uint256 minAmount, bool active)",
+  "function userStakes(address, uint256) view returns (uint256 amount, uint256 startTime, uint256 endTime, uint256 planId, uint256 rewards, bool withdrawn)",
+  "function stake(uint256 amount, uint256 planId)",
+  "function calculateRewards(address user, uint256 stakeIndex) view returns (uint256)",
+  "function unstake(uint256 stakeIndex)",
+  "function claimRewards(uint256 stakeIndex)",
+  "function getUserStakes(address user) view returns (tuple(uint256 amount, uint256 startTime, uint256 endTime, uint256 planId, uint256 rewards, bool withdrawn)[])",
+  "event Staked(address indexed user, uint256 amount, uint256 planId, uint256 stakeIndex)",
+  "event Unstaked(address indexed user, uint256 amount, uint256 rewards, uint256 stakeIndex)",
+  "event RewardsClaimed(address indexed user, uint256 rewards, uint256 stakeIndex)"
+]
